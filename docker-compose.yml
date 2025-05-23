@@ -5,5 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        - "tag=1.90.2"
+        - "tag=latest"
   ...
