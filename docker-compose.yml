@@ -1,9 +1,0 @@
-services:
-  n8n:
-    image: n8n_built_by_docker_compose
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        - "tag=latest"
-  ...
